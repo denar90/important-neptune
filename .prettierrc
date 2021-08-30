@@ -1,0 +1,9 @@
+tabWidth: 4
+singleQuote: true
+trailingComma: none
+printWidth: 160
+overrides:
+  - files: "*.scss"
+    options:
+      tabWidth: 2
+      singleQuote: false

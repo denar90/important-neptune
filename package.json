@@ -1,0 +1,37 @@
+{
+  "name": "azimuth-nextjs-contentful",
+  "description": "A Stackbit Azimuth theme built with Next.js and powered by Contentful CMS",
+  "version": "0.1.0",
+  "license": "MIT",
+  "scripts": {
+    "dev": "next dev",
+    "develop": "next dev",
+    "fetch": "sourcebit fetch",
+    "build": "next build && next export",
+    "start": "next start",
+    "lint": "next lint",
+    "prettier": "prettier --write src"
+  },
+  "dependencies": {
+    "classnames": "^2.3.1",
+    "lodash": "^4.17.21",
+    "marked": "^2.1.1",
+    "moment": "^2.29.1",
+    "moment-strftime": "^0.5.0",
+    "next": "^11.0.0",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-markdown": "^6.0.2",
+    "sass": "^1.35.1",
+    "sourcebit": "^0.11.0",
+    "sourcebit-source-contentful": "^0.6.7",
+    "sourcebit-target-next": "^0.6.3"
+  },
+  "devDependencies": {
+    "contentful-export": "^7.12.26",
+    "contentful-import": "^8.1.17",
+    "eslint": "7.29.0",
+    "eslint-config-next": "11.0.0",
+    "prettier": "^2.2.1"
+  }
+}
